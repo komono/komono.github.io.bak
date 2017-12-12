@@ -4,7 +4,7 @@ title:      使用SpringMail发送邮件
 subtitle:   Windows使用问题汇总
 date:       2017-12-08
 author:     ptpan
-header-img: img/post-bg-debug.png
+header-img: img/post-bg-pexels-photo-695299.jpeg
 catalog: true
 tags:
     - Spring Mail

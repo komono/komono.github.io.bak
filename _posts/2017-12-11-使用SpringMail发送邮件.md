@@ -159,4 +159,8 @@ public void addAttachment(String attachmentFilename, DataSource dataSource) thro
     }
 ```
 
-<font color="#FF0000">发送带图片的邮件需要修改img标签的src属性，`<img src="cid:imgId"/>`</font>
+<font color="#FF0000">发送带图片的邮件需要修改img标签的src属性：</font>
+```
+<img src="cid:imgId"/>
+```
+

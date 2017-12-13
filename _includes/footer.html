@@ -1,23 +1,5 @@
 <!-- Footer -->
 <footer>
-        {% if site.open_comments %}
-        <div id="container" style="padding-left:20%;padding-right:20%;"></div>
-        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-        <script>
-        var gitment = new Gitment({
-          //id: 'location.href', // 可选。默认为 location.href
-          owner: 'komono',
-          repo: 'komono.github.io.comment',
-          oauth: {
-            client_id: 'cbbbcbf004a60b020143',
-            client_secret: '092ba80196495a3687c6bbf92ba70cd6880ddea4',
-          },
-        })
-        gitment.render('container')
-        </script>
-         {% endif %}
-
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

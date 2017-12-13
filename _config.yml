@@ -4,7 +4,7 @@ SEOTitle: PS Blog
 header-img: img/post-bg-robson-hatsukami-morgan.jpg
 email: simpleinjoy@gmail.com
 description: "Every failure is leading towards success."
-keyword: "PS, PS Blog, 潘帅的博客,博客, ptpan, 潘帅, Java"
+keyword: "PS Blog, 潘帅的博客,ptpan"
 url: "http://komono.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/komono/komono.github.io" # you code repository
@@ -21,7 +21,7 @@ RSS: false
 weibo_username:     ptpan
 zhihu_username:     pan_shuai
 github_username:    komono
-facebook_username:  ptpan
+#facebook_username:  ptpan
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 

@@ -63,6 +63,8 @@ layout: default
                 <hr style="visibility: hidden;">
 
                 {% if site.duoshuo_share && site.duoshuo_username %}
+
+
                 <!-- 多说 Share start -->
                 <div class="ds-share"
                     style="text-align: right"
@@ -129,6 +131,27 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
+
+<!-- gitment评论代码start style="padding-left:20%;padding-right:20%;" -->
+{% if site.open_comments %}
+<div id="container" class="comment" ></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        //id: 'location.href', // 可选。默认为 location.href
+        owner: 'komono',
+        repo: 'komono.github.io.comment',
+        oauth: {
+            client_id: 'cbbbcbf004a60b020143',
+            client_secret: '092ba80196495a3687c6bbf92ba70cd6880ddea4',
+        },
+    })
+    gitment.render('container')
+</script>
+{% endif %}
+<!-- gitment评论代码end -->
+
 
             </div>  
 
@@ -207,26 +230,6 @@ layout: default
 </script>
 <!-- 多说公共JS代码 end -->
 {% endif %}
-
-<!-- gitment评论代码start -->
-{% if site.open_comments %}
-<div id="container" style="padding-left:20%;padding-right:20%;"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  //id: 'location.href', // 可选。默认为 location.href
-  owner: 'komono',
-  repo: 'komono.github.io.comment',
-  oauth: {
-    client_id: 'cbbbcbf004a60b020143',
-    client_secret: '092ba80196495a3687c6bbf92ba70cd6880ddea4',
-  },
-})
-gitment.render('container')
-</script>
- {% endif %}
- <!-- gitment评论代码end -->
 
 {% if site.disqus_username %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->

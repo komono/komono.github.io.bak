@@ -72,7 +72,8 @@ kramdown:
 ba_track_id: 9140a9e175ab132f39ecee4996cbb9fb
 
 # Google Analytics
-#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_track_id: 'UA-90855596-1'            
+# Format: UA-xxxxxx-xx
 ga_domain: auto
 
 
@@ -81,7 +82,7 @@ ga_domain: auto
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -90,7 +91,10 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 # Comments settings
-open_comments: true
+gitment_owner: "komono"
+gitment_repo: "komono.github.io.comment"
+gitment_oauth_client_id: "cbbbcbf004a60b020143"
+gitment_client_secret: "092ba80196495a3687c6bbf92ba70cd6880ddea4"
 
 
 # Friends

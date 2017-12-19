@@ -133,18 +133,18 @@ layout: default
                 {% endif %}
 
 <!-- gitment评论代码start style="padding-left:20%;padding-right:20%;" -->
-{% if site.open_comments %}
+{% if site.gitment_owner %}
 <div id="container" class="comment" ></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
     var gitment = new Gitment({
         //id: 'location.href', // 可选。默认为 location.href
-        owner: 'komono',
-        repo: 'komono.github.io.comment',
+        owner: '{{site.gitment_owner}}',
+        repo: '{{site.gitment_repo}}',
         oauth: {
-            client_id: 'cbbbcbf004a60b020143',
-            client_secret: '092ba80196495a3687c6bbf92ba70cd6880ddea4',
+            client_id: '{{site.gitment_oauth_client_id}}',
+            client_secret: '{{site.gitment_client_secret}}',
         },
     })
     gitment.render('container')

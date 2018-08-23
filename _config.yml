@@ -94,7 +94,7 @@ service-worker: true
 gitment_owner: "komono"
 gitment_repo: "komono.github.io.comment"
 gitment_oauth_client_id: "cbbbcbf004a60b020143"
-gitment_client_secret: "4bc2f4e83c87c072470fd4d37de571cc4f563f3b"
+gitment_client_secret: "dbb3379e2e276c2e9339a6edb70938ad81c9b981"
 
 
 # Friends

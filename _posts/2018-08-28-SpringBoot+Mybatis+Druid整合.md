@@ -21,7 +21,7 @@ tags:
 
 [可以直接到SpringBoot官网快速获取](https://start.spring.io/)
 
-![20180828-springboot-qkstart](http://ptpan.top/img/post/2018/20180828-springboot-qkstart.PNG)
+![20180828-springboot-qkstart](http://ptpan.top/img/post/2018/20180828-springboot-qkstart.png)
 
 
 
@@ -479,7 +479,7 @@ public class UserInfoController {
 
 ![20180828-druid-demo-start](http://ptpan.top/img/post/2018/20180828-druid-demo-start.png)
 
-![20180826-druid-demo-test](E:\Img\md-img\20180826-druid-demo-test.png)
+![20180826-druid-demo-test](http://ptpan.top/img/post/2018/20180826-druid-demo-test.png)
 
 ![20180826-console](http://ptpan.top/img/post/2018/20180826-console.png)
 

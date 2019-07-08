@@ -2,10 +2,10 @@
 title: PS Blog
 SEOTitle: PS Blog
 header-img: img/post-bg-robson-hatsukami-morgan.jpg
-email: simpleinjoy@gmail.com
-description: "Every failure is leading towards success."
+email: 1091711534@qq.com
+description: "Stop trying to hold onto the past."
 keyword: "PS Blog, 潘帅的博客,ptpan"
-url: "http://komono.github.io"          # your host, for absolute URL
+url: "http://ptpan.top"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/komono/komono.github.io" # you code repository
 
@@ -18,11 +18,11 @@ sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-weibo_username:     ptpan
+weibo_username:     panshual
 zhihu_username:     pan_shuai
 github_username:    komono
 #facebook_username:  ptpan
-#jianshu_username:   e71990ada2fd
+jianshu_username:   525944963e1a
 #twitter_username:   qiubaiying
 
 
@@ -58,15 +58,6 @@ kramdown:
 # Disqus settings（https://disqus.com/）
 #disqus_username: ptpan
 
-# 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
-# Duoshuo settings
-# duoshuo_username: qiubaiying
-# Share component is depend on Comment so we can NOT use share only.
-# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-
-
 # Analytics settings
 # Baidu Analytics
 ba_track_id: 9140a9e175ab132f39ecee4996cbb9fb
@@ -94,19 +85,16 @@ service-worker: true
 gitment_owner: "komono"
 gitment_repo: "komono.github.io.comment"
 gitment_oauth_client_id: "cbbbcbf004a60b020143"
-gitment_client_secret: "dbb3379e2e276c2e9339a6edb70938ad81c9b981"
+gitment_client_secret: "7fa4bc24ae1332375f31b8d963c0bb9557739b94"
 
 
 # Friends
 friends: [
     {
-        title: "Hux",
-        href: "http://huangxuan.me/"
+        title: "ME",
+        href: "http://ptpan.top/"
     },{
-        title: "简书·",
-        href: "http://www.jianshu.com/"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "智勇",
+        href: "http://zzyall.github.com/"
     }
 ]

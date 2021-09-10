@@ -12,7 +12,7 @@ github_repo: "https://github.com/komono/komono.github.io" # you code repository
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Time Flies!"
-sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/yk.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
